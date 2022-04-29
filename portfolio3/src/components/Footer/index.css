@@ -1,0 +1,19 @@
+.footer {
+    background-color: #212529;
+    width: 100%;
+}
+
+.social {
+    background-color: #212529;
+    padding: 50px;
+    box-shadow: 0px 0px 8px 8px #000000;
+}
+
+.social i {
+    color: #918E9B;
+    margin: 0px 10px 0px 10px;
+}
+
+.social i:hover {
+    color: #FFFFFF;
+}
