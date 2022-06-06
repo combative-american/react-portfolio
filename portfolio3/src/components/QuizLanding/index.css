@@ -1,0 +1,46 @@
+hr {
+    color: #DBDEF0;
+    opacity: 0.5;
+    margin: 20px 0px;
+}
+
+.title {
+    color: #FFFFFF;
+}
+
+.instructions {
+    color: #FFFFFF;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #293264;
+    font-weight: 700;
+}
+
+.action-button {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    background-color: #4D5B9E;
+    border: none;
+    font-family: Inter;
+    color: #FFFFFF;
+    margin: 40px;
+    font-weight: 700;
+}
+
+    .action-button:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }

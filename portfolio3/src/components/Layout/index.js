@@ -3,12 +3,15 @@ import Navbar from '../Navbar'
 import Home from '../Home'
 import Footer from '../Footer'
 import { Container } from 'react-bootstrap'
+import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
     return (
         <Container fluid style={{ paddingLeft: 0, paddingRight: 0, backgroundColor: "#1e2a45" }}>
             <Navbar />
-            <Home />
+            <div className="page">
+                <Outlet />
+            </div>
             <Footer />
         </Container>
     )
