@@ -26,24 +26,21 @@ hr {
 .answers-default {
     padding: 5px;
     border-radius: 8px;
-    border: 2px solid #4D5B9E;
+    border: 2px solid #FFFFFF;
     margin: 5px;
-    background-color: #FFFFFF;
+    background-color: #1169F7;
     min-width: 200px;
+    color: #FFFFFF;
 }
 
-.answers-default:hover {
-    background-color: #D6DBF5;
-}
+    .answers-default:hover {
+        background-color: #679df5;
+    }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
     .answers {
         justify-content: center;
         align-items: center;
-    }
-
-    .answers-default {
-        min-width: 400px;
     }
 }
 
@@ -59,17 +56,17 @@ hr {
 }
 
 .answers-selected {
-    background-color: #D6DBF5;
+    background-color: #679df5;
 }
 
 .answers-correct {
-    background-color: #94D7A2;
-    border: 2px solid #94D7A2;
+    background-color: #61b071;
+    border: 2px solid #61b071;
 }
 
 .answers-wrong {
-    background-color: #F8BCBC;
-    border: 2px solid #F8BCBC;
+    background-color: #e66e6e;
+    border: 2px solid #e66e6e;
 }
 
 .actions {
@@ -89,7 +86,7 @@ hr {
     padding: 20px;
     border-radius: 10px;
     max-width: 200px;
-    background-color: #4D5B9E;
+    background-color: #1169F7;
     border: 2px solid #FFFFFF;
     font-family: Inter;
     color: #FFFFFF;
@@ -98,5 +95,9 @@ hr {
 
     .action-button:hover {
         cursor: pointer;
-        opacity: 0.7;
+        opacity: 0.8;
     }
+
+button {
+    font-family: 'Inter'
+}

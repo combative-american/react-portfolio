@@ -1,5 +1,4 @@
 import './index.css'
-import { Container, Navbar, Nav, NavDropdown, Col, Row, Button } from 'react-bootstrap'
 
 const Skillsbar = () => {
     return (

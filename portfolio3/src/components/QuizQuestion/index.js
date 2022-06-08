@@ -10,9 +10,9 @@ const QuizQuestion = (props) => {
 
         if (props.selected_answer === props.answers[i]) { style = "answers-default answers-selected" }
 
-        if (props.showAnswers && props.answers[i] == props.correct_answer) { style = "answers-default answers-correct" }
+        if (props.showAnswers && props.answers[i] === props.correct_answer) { style = "answers-default answers-correct" }
 
-        if (props.selected_answer !== props.correct_answer && props.answers[i] == props.selected_answer && props.showAnswers) { style = "answers-default answers-wrong" }
+        if (props.selected_answer !== props.correct_answer && props.answers[i] === props.selected_answer && props.showAnswers) { style = "answers-default answers-wrong" }
 
         if (props.selected_answer === "" && props.correct_answer === props.answers[i] && props.showAnswers) {
             style = "answers-default answers-wrong"
@@ -38,7 +38,7 @@ const QuizQuestion = (props) => {
 
     return (
         <div>
-            <h2 className="question">{parsedQuestion}</h2>
+            <h3 className="question">{parsedQuestion}</h3>
             <div className="answers">
                 {answerElements}
             </div>

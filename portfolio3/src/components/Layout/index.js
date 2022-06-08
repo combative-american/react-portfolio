@@ -1,6 +1,5 @@
 import './index.css'
 import Navbar from '../Navbar'
-import Home from '../Home'
 import Footer from '../Footer'
 import { Container } from 'react-bootstrap'
 import { Outlet } from 'react-router-dom'

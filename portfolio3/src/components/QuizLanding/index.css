@@ -33,7 +33,7 @@ hr {
     padding: 20px;
     border-radius: 10px;
     max-width: 200px;
-    background-color: #4D5B9E;
+    background-color: #1169F7;
     border: none;
     font-family: Inter;
     color: #FFFFFF;
@@ -43,5 +43,5 @@ hr {
 
     .action-button:hover {
         cursor: pointer;
-        opacity: 0.7;
+        opacity: 0.8;
     }
