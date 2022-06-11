@@ -44,11 +44,12 @@ export default function App() {
     }
 
     function selectAnswer(event) {
+
         if (showAnswers) { return }
 
         setAllQuestions(prevQuestions => prevQuestions.map(question => {
             if (event.target.id.toString() === question.id.toString()) {
-                event.target.className = "selected"
+                event.target.className = "answers-default answers-selected"
             }
 
             return (
@@ -60,6 +61,7 @@ export default function App() {
     }
 
     function checkAnswers() {
+
         setShowAnswers(true)
 
         for (let i = 0; i < allQuestions.length; i++) {
